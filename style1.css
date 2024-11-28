@@ -1,0 +1,62 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    background: url('obraz_baner.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  
+  .logo {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .menu a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 1s, text-shadow 1s;
+  }
+  
+  .menu a:hover {
+    color: #460c43;
+    text-shadow: 0 1px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+  }
+  
+  .glowny-lewy, .glowny-prawy {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .ikony {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .ikony img {
+    width: 24px;
+    margin: 5px;
+  }
+  
